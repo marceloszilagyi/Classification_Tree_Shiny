@@ -3,6 +3,12 @@ Interactive Sandbox for a Classification Tree Model
 author: Marcelo Szilagyi
 date: November, 11, 2016
 autosize: true
+ 
+<style>
+.small-code pre code {
+  font-size: 1em;
+}
+</style>
 
 Motivation and Approach
 ========================================================
@@ -18,6 +24,7 @@ Users can:
 
 Data 
 ========================================================
+class: small-code
 
 The data used for the example is the [German Credit Data](https://archive.ics.uci.edu/ml/datasets/Statlog+(German+Credit+Data)), extracted from the [caret package](http://topepo.github.io/caret/datasets.html). A script adds more meaningful names for the user and based on the number of unique values, defines if a variable is binary, categorical or continuous. The code below starts the process
 
@@ -51,7 +58,7 @@ After the proper selection of variables, users can see the decision tree and the
 App and Code hyperlinks, future developments
 ========================================================
 
-The app can be found at <https://meszilag.shinyapps.io/Week4/> and the code can be found at <
+The app can be found at <https://meszilag.shinyapps.io/week4b/> and the code can be found at <https://github.com/marceloszilagyi/week4b>.
 
 Future developments may include
 - User upload of data files

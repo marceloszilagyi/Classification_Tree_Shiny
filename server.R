@@ -201,6 +201,8 @@ shinyServer(function(input, output) {
     input$in22,
     input$in32))
   
+  # this is the contgency table
+  output$mytable5 <-  DT::renderDataTable(graphsforcategorical())
   
   # Table for binary variables
   output$mytable1 <- DT::renderDataTable(
